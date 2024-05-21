@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Sofia Sans Extra Condensed, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    --verde-claro: #B5C18E;
+    --beige: #F7DCB9;
+    --marron-claro:#DEAC80;
+    --marron-oscuro: #B99470;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--marron-oscuro);
+    font-size:xx-large;
+}
+
+i {
+    color: var(--verde-claro);
+    margin-left: 1rem;
+}
+.link-navbar {
+    text-decoration: none;
+    color: var(--verde-claro);
+    margin-left: 1rem;
+}
+
+.link-register a{
+    text-decoration: none;
+    color: var(--verde-claro);
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+body {
+    background-color: #F7DCB9;
+    background-image: url(/Assets/fondo_aboutUS.png);
+    background-repeat: no-repeat;
+    background-attachment:local;  
+    background-size: cover;
+}
+
+footer {
+    background-color: var(--marron-oscuro);
+}
+
+.footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: var(--verde-claro);
+}
+
+.redes-sociales a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-descripcion{
+    color: white;
+    
+}
+
+.logo-descripcion h1{
+    color: white;    
+    background-image: url(/Assets/fondo_aboutUS.png);
+}
+
+.principalFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.quienes_somos {
+    background-color: #ebba89;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.mapaLugar{
+    text-align: center;
+}
+
+/* Media query para pantallas medianas (tabletas) */
+@media only screen and (max-width: 800px) {
+    .quienes_somos,
+    .mapaLugar {
+        width: 100%; 
+    }
+
+    .footer-logo,
+    .redes-sociales,
+    .info-footer {
+        text-align: center;
+            
+    }
+}
+
+
+/* Media query para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 425px) {
+    
+    header.cabecera {
+        width: 100%;
+        padding: 10px 0; 
+        margin: 0; 
+    }
+
+    
+    footer.container-fluid {
+        width: 100%;
+        padding: 10px 0; 
+        margin: 0; 
+    }
+}
