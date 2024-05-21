@@ -21,7 +21,7 @@
                 <a href="/Pages/AboutUs.html" class="link-navbar">ABOUT US</a>
             </div>
             <div class="link-register">
-                <a href="" >INICIAR SESION</a>
+                <a href="/Pages/error404.html" >INICIAR SESION</a>
             </div>
 
         </nav>
@@ -48,6 +48,15 @@
                                     <label for="apellido">Apellido</label>
                                     <input type="text" placeholder="Apellido" name="apellido" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+">
                   </div>
+                  <div class="formularioInput">
+                    <label for="gender">Género</label>
+                    <select name="gender" id="gender">
+                      <option value="" disabled selected>Seleccione uno</option>
+                      <option value="masculino">Masculino</option>
+                      <option value="femenino">Femenino</option>
+                      <option value="otros">Otros</option>
+                    </select>
+                  </div>
                 </div>
                 <div class="formularioMitad">
                   <div class="formularioInput">
@@ -66,6 +75,10 @@
                   </div>
                 </div>
                 <div class="formularioCompleto">
+                  <input type="radio" id="terms" name="terms" required>
+                  <label for="terms">He leido y acepto los <a href="">Términos y Condiciones</a></label>
+                </div>
+                <div class="formularioCompleto">
                   <div class="formularioInput">
                     <button type="submit">Enviar</button>
                   </div>
@@ -73,8 +86,8 @@
               </form>
             </div>
           </div>
-          <div class="col-12 col-lg-5 mapaEmpresa contactanos">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1217390314237!2d-65.20940412373928!3d-26.83607999000777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0ef381eb2f%3A0x6adb552da62ab27f!2sGral.%20Paz%20555%2C%20T4000BLK%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1693673143357!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="col-12 col-lg-5 contactanos">
+            <img src="../Assets/velas-aromat.jpeg" class="w-100" alt="velas-aromat">
           </div>
         </div>
       </div>
