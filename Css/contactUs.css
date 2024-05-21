@@ -1,10 +1,3 @@
-html{
-    --verde-claro: #B5C18E;
-    --beige: #F7DCB9;
-    --marron-claro:#DEAC80;
-    --marron-oscuro: #B99470;
-}
-
 body{
     background: linear-gradient(90deg, var(--marron-claro) 40%, var(--beige) 60%);
 }
