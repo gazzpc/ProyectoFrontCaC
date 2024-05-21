@@ -41,6 +41,10 @@ i {
 
 body {
     background-color: #F7DCB9;
+    background-image: url(/Assets/fondo_aboutUS.png);
+    background-repeat: no-repeat;
+    background-attachment:local;  
+    background-size: cover;
 }
 
 footer {
@@ -68,4 +72,59 @@ footer {
 
 .logo-descripcion h1{
     color: white;    
+    background-image: url(/Assets/fondo_aboutUS.png);
+}
+
+.principalFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.quienes_somos {
+    background-color: #ebba89;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.mapaLugar{
+    text-align: center;
+}
+
+/* Media query para pantallas medianas (tabletas) */
+@media only screen and (max-width: 800px) {
+    .quienes_somos,
+    .mapaLugar {
+        width: 100%; 
+    }
+
+    .footer-logo,
+    .redes-sociales,
+    .info-footer {
+        text-align: center;
+            
+    }
+}
+
+
+/* Media query para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 425px) {
+    
+    header.cabecera {
+        width: 100%;
+        padding: 10px 0; 
+        margin: 0; 
+    }
+
+    
+    footer.container-fluid {
+        width: 100%;
+        padding: 10px 0; 
+        margin: 0; 
+    }
 }
