@@ -14,7 +14,7 @@ html{
     --marron-oscuro: #B99470;
 }
 
-nav {
+.navGaston {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,11 +85,16 @@ footer {
 
 .quienes_somos {
     background-color: #ebba89;
+    border-radius: 1rem;
     text-align: center;
     padding: 30px;
     font-size: 30px;
     margin: 0 auto;
     width: 80%; 
+}
+
+.quienes_somos h2{
+    color: white;
 }
 
 .mapaLugar{
