@@ -1,101 +1,99 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/css/styleCatalogo.css">
-    <link rel="icon" href="/ProyectoFrontCaC/Pages/static/img/favicon.jpg">
+    <link rel="stylesheet" href="../Css/styleGas.css">
+    <link rel="stylesheet" href="../Css/styleCatalogo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     <title>CATALOGO</title>
 </head>
 
 <body>
-    <!-- Encabezado -->
-    <header class="header">
-        <nav>
-            <!-- Logo -->
+    <header>
+        <nav class="navGaston">
             <div>
-                <a href="/"><span><b>LAS TINAJAS</b></span></a>
+                <a href="../index.html"><i class="fa-solid fa-seedling"></i></a>
+                <a href="/Pages/Catalogo.html" class="link-navbar">CATALOGO</a>
+                <a href="/Pages/contactUs.html" class="link-navbar">CONTACTO</a>
+                <a href="/Pages/SobreNosotros.html" class="link-navbar">ABOUT US</a>
             </div>
-        </header>
-            <!-- Hipervínculos del menú -->
-        <header>
-            <ul>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#about us">Sobre Nosotros</a></li>
-                <li><a href="#">Iniciar Sesión</a></li>
-            </ul>
         </nav>
-        </header>
-
-    <!-- Contenido -->
-    <main>
-        <section id="banner"></section>
-        <h2>NUESTROS PRODUCTOS</h2>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
-        <nav>
+    </header>
+        <section id="banner">
+        <h2 class="titleCande p-3 text-light">NUESTROS PRODUCTOS</h2>
+        <nav class="navCande">
             <ul class="nav-links">
                 <li>
-                    <a href="pagvelas.html">
-                        <div class="imagen-container">
+                    <div class="imagen-container ">
+                            <a href="pagvelas.html">
                             <img src="./static/img/bannercat.jpg" alt="Velas">
                             <span class="tit"><b>Velas</b></span>
-                        </div>    
-                    </a>
+                        </a>
+                    </div>    
                 </li>
                 <li>
-                    <a href="pagdifusores.html">
-                        <div class="imagen-container">
+                    <div class="imagen-container">
+                            <a href="pagdifusores.html">
                             <img src="./static/img/bannercat.1.jpg" alt="Difusores">
                             <span class="tit"><b>Difusores</b></span>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="pagsolidos.html">
-                        <div class="imagen-container">
+                    <div class="imagen-container">
+                            <a href="pagsolidos.html">
                             <img src="./static/img/bannercat.3.jpg" alt="Sólidos">
                             <span class="tit"><b>Sólidos</b></span>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="pagdeco.html">
-                        <div class="imagen-container">
+                    <div class="imagen-container">
+                            <a href="pagdeco.html">
                             <img src="./static/img/bannercat.2.jpg" alt="Deco">
                             <span class="tit"><b>Deco</b></span>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </li>
                 
             </ul>
         </nav>
-    </main>
-
         
-
-        </section>
-
         
-
-
-        
-
-        
-
-
-
-        
-    <!-- Pie -->
-    <footer>
-        <a href="">Términos y condiciones</a>
-        <a href="">Preguntas frecuentes</a>
-        <a href="">Ayuda</a>
-    </footer>
-
-    <script src="./js/datos.js"></script>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <div class="footer-logo">
+                        <img class="w-25" src="../Assets/Logo.png" alt="logo.png">
+                    </div>
+                    <p class="logo-descripcion fs-1 text-center mt-1 mb-0">Las Tinajas</p>
+                    <p class="logo-descripcion text-center fs-4 mb-0">Productos cósmeticos naturales</p>
+                    <p class="logo-descripcion text-center fs-4 mb-0">Sé parte del cambio</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <ul class="list-unstyled text-center fs-4 mt-4 redes-sociales">
+                        <li><a href="https://www.instagram.com/las.tinajas.cosmetica/"><i class="fa-brands mt-3 fa-instagram px-2"></i>Instagram</a></li>
+                        <li><a href="https://facebook.com"><i class="fa-brands mt-3 fa-facebook px-2"></i>Facebook</a></li>
+                        <li><a href="https://whatsapp.com"><i class="fa-brands mt-3 fa-whatsapp px-2"></i>Whatsapp</a></li>
+                        <li><a href="https://telegram.com"><i class="fa-brands mt-3 fa-telegram px-2"></i>Telegram</a></li>
+                      <p class="fs-4 mt-3 mb-1">&copy; Todos los derechos reservados</p>
+            </ul>
+            </div>
+                <div class="col-12 col-md-4 fs-3 info-footer text-center mt-4">
+                    <br>
+                    <p class="fs-4 text-secondary mb-0 mt-2">Atención al Cliente:</p>
+                    <p class="fs-4 text-white mb-0">+2241-508408</p>
+                    <p class="fs-4 text-secondary mb-0">Lu a Vi de 09.00 a 18.00</p>
+                    <p class="fs-4 text-secondary">Sa de 9.00 a 13.00</p>
+                </div>
+            </div>
+        </footer>
+    <script src="https://kit.fontawesome.com/ec0c4b2b27.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
 
